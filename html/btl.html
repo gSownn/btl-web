@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="halloween.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container_nav">
+            <div class="header_nav">
+                <input type="checkbox" class='nav_input' name="" id="nav_input" />
+                <label for="nav_input" class="nav_bar-btn">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                        class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                        </path>
+                    </svg>
+                </label>
+                <div class="header_logo">
+                    <div class="logo_wrap">
+                        <a href="index.html" class="logo" title="the coffee house">
+                            <img src="logo.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="nav_pc" id="nav_pc">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="#" title="Cà phê">Cà phê</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Trà">Trà</a>
+                        </li>
+                        <!--Menu-->
+                        <li class="dropdown">
+                            <a href="#" title="Menu" class="dropbtn">
+                                Menu
+                                <svg width="6" height="4" viewBox="0 0 6 4" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.99992 3.33332L0.333252 0.666656H5.66659L2.99992 3.33332Z" fill="black"
+                                        fill-opacity="0.6" />
+                                </svg>
+                            </a>
+                            <div class="dropdown_content">
+                                <ul class="menu_child" id="menu_child_1">
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="#" title="Tất Cả">Tất Cả</a>
+                                        </li>
+                                    </section>
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="#" title="Cà Phê">Cà Phê</a>
+                                            <ul class="menu_child_lv3">
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Cà Phê Highlight">
+                                                        Cà Phê Highlight
+                                                    </a>
+                                                </li>
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Cà Phê Việt Nam">
+                                                        Cà Phê Việt Nam
+                                                    </a>
+                                                </li>
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Cà Phê Máy">
+                                                        Cà Phê Máy
+                                                    </a>
+                                                </li>
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Cold Brew">
+                                                        Cold Brew
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </section>
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="#" title="Trái Cây Xay 0°C">Trái Cây
+                                                Xay 0°C</a>
+                                            <ul class="menu_child_lv3">
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Trái Cây Xay 0°C">
+                                                        Trái Cây Xay 0°C
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </section>
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="#" title="Trà Trái Cây - HiTea">Trà Trái
+                                                Cây - HiTea</a>
+                                            <ul class="menu_child_lv3">
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Trà Trái Cây">
+                                                        Trà Trái Cây
+                                                    </a>
+                                                </li>
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Hi-Tea">
+                                                        Hi-Tea
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </section>
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="#" title="Trà Sữa">Trà Sữa</a>
+                                            <ul class="menu_child_lv3">
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Trà Sữa">
+                                                        Trà Sữa
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </section>
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="#" title="Trà Xanh - Chocolate">Trà
+                                                Xanh - Chocolate</a>
+                                            <ul class="menu_child_lv3">
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Trà Xanh Tây Bắc">
+                                                        Trà Xanh Tây Bắc
+                                                    </a>
+                                                </li>
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Chocolate">
+                                                        Chocolate
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </section>
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="#" title="Thức uống đá xay">Thức uống đá
+                                                xay</a>
+                                            <ul class="menu_child_lv3">
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Đá xay Frosty">
+                                                        Đá xay Frosty
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </section>
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="#" title="Bánh & Snack">Bánh & Snack</a>
+                                            <ul class="menu_child_lv3">
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="#" title="Bánh mặn">
+                                                        Bánh mặn
+                                                    </a>
+                                                </li>
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="/collections/banh-ngot" title="Bánh ngọt">
+                                                        Bánh ngọt
+                                                    </a>
+                                                </li>
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="/collections/banh-pastry" title="Bánh Pastry">
+                                                        Bánh Pastry
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </section>
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="/collections/thuong-thuc-tai-nha"
+                                                title="Thưởng Thức Tại Nhà">Thưởng Thức Tại Nhà</a>
+                                            <ul class="menu_child_lv3">
+                                                <li class="lv3_title" main-menu-new-menu a_>
+                                                    <a href="/collections/ca-phe-tai-nha" title="Cà phê tại nhà">
+                                                        Cà phê tại nhà
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </section>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <!--chuyen nha-->
+                        <li class="dropdown">
+                            <a href="/pages/chuyen-ca-phe-va-tra" title="Chuyện Nhà" class="dropbtn">
+                                Chuyện Nhà
+                                <svg width="6" height="4" viewBox="0 0 6 4" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.99992 3.33332L0.333252 0.666656H5.66659L2.99992 3.33332Z" fill="black"
+                                        fill-opacity="0.6">
+                                    </path>
+                                </svg>
+                            </a>
+                            <div class="dropdown_content">
+                                <ul class="menu_child" id="menu_child_2">
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="/pages/chuyen-ca-phe-va-tra?b=1000676335"
+                                                title="Coffeeholic">Coffeeholic</a>
+                                            <ul class="menu_child_lv3">
+                                                <li class="lv3_title">
+                                                    <a href="/pages/chuyen-ca-phe-va-tra?b=1000676335&h=chuyencaphe"
+                                                        title="Chuyện Cà Phê">
+                                                        #chuyencaphe
+                                                    </a>
+                                                </li>
+                                                <li class="lv3_title">
+                                                    <a href="/pages/chuyen-ca-phe-va-tra?b=1000676335&h=phacaphe"
+                                                        title="Pha Cà Phê">
+                                                        #phacaphe
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </section>
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="/pages/chuyen-ca-phe-va-tra?b=1000676336"
+                                                title="Teaholic">Teaholic</a>
+                                            <ul class="menu_child_lv3">
+                                                <li class="lv3_title">
+                                                    <a href="/pages/chuyen-ca-phe-va-tra?b=1000676336&h=phatra"
+                                                        title="Pha Trà">
+                                                        #phatra
+                                                    </a>
+                                                </li>
+                                                <li class="lv3_title">
+                                                    <a href="/pages/chuyen-ca-phe-va-tra?b=1000676336&h=cauchuyenvetra"
+                                                        title="Câu chuyện về trà">
+                                                        #cauchuyenvetra
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </section>
+                                    <section>
+                                        <li class="lv2_title">
+                                            <a href="/pages/chuyen-ca-phe-va-tra?b=1000676337" title="Blog">Blog</a>
+                                            <ul class="menu_child_lv3">
+                                                <li class="lv3_title">
+                                                    <a href="/pages/chuyen-ca-phe-va-tra?b=1000676337&h=inthemood"
+                                                        title="In The Mood">
+                                                        #inthemood
+                                                    </a>
+                                                </li>
+                                                <li class="lv3_title">
+                                                    <a href="/pages/chuyen-ca-phe-va-tra?b=1000676337&h=Review"
+                                                        title="Review">
+                                                        #Review
+                                                    </a>
+                                                </li>
+                                                <li class="lv3_title">
+                                                    <a href="/pages/chuyen-ca-phe-va-tra?b=1000676337&h=HumanofTCH"
+                                                        title="Human of TCH">
+                                                        #HumanofTCH
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </section>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="/pages/cloudfee-the-he-ca-phe-moi" title="Cảm hứng CloudFee">Cảm hứng CloudFee</a>
+                        </li>
+
+                        <li>
+                            <a href="/pages/danh-sach-cua-hang" title="Cửa hàng">Cửa hàng</a>
+                        </li>
+
+                        <li>
+                            <a href="https://tuyendung.thecoffeehouse.com" title="Tuyển dụng" target="blank">Tuyển
+                                dụng</a>
+                        </li>
+                    </ul>
+                </div>
+                <label for="nav_input" class="nav_overlay"></label>
+                <div class="nav_mobile">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="/collections/ca-phe-tai-nha" title="Cà phê">Cà phê</a>
+                        </li>
+                        <li>
+                            <a href="/collections/tra-tai-nha" title="Trà">Trà</a>
+                        </li>
+                        <!--Menu-->
+                        <li class="accordion">
+                            <div class="tab">
+                                <input type="checkbox" class="tab_input" name="" id="cb1">
+                                <label for="cb1" class="tab_label">
+                                    Menu
+                                    <svg width="6" height="4" viewBox="0 0 6 4" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2.99992 3.33332L0.333252 0.666656H5.66659L2.99992 3.33332Z"
+                                            fill="black" fill-opacity="0.6" />
+                                    </svg>
+                                </label>
+                                <div class="tab_content">
+                                    <ul class="menu_child" id="menu_child_3">
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/collections/all" title="Tất Cả">Tất Cả</a>
+                                            </li>
+                                        </section>
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/collections/ca-phe" title="Cà Phê">Cà Phê</a>
+                                                <ul class="menu_child_lv3">
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/ca-phe-highlight-2"
+                                                            title="Cà Phê Highlight">
+                                                            Cà Phê Highlight
+                                                        </a>
+                                                    </li>
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/ca-phe-viet-nam" title="Cà Phê Việt Nam">
+                                                            Cà Phê Việt Nam
+                                                        </a>
+                                                    </li>
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/ca-phe-may" title="Cà Phê Máy">
+                                                            Cà Phê Máy
+                                                        </a>
+                                                    </li>
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/cold-brew" title="Cold Brew">
+                                                            Cold Brew
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </section>
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/collections/trai-cay-xay-0-c" title="Trái Cây Xay 0°C">Trái
+                                                    Cây Xay 0°C</a>
+                                                <ul class="menu_child_lv3">
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/trai-cay-xay-0-c"
+                                                            title="Trái Cây Xay 0°C">
+                                                            Trái Cây Xay 0°C
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </section>
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/collections/hi-tea-healthy" title="Trà Trái Cây - HiTea">Trà
+                                                    Trái Cây - HiTea</a>
+                                                <ul class="menu_child_lv3">
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/tra-trai-cay" title="Trà Trái Cây">
+                                                            Trà Trái Cây
+                                                        </a>
+                                                    </li>
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/hi-tea-tra" title="Hi-Tea">
+                                                            Hi-Tea
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </section>
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/collections/tra-sua-macchiato" title="Trà Sữa">Trà Sữa</a>
+                                                <ul class="menu_child_lv3">
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/tra-sua" title="Trà Sữa">
+                                                            Trà Sữa
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </section>
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/collections/tra-xanh-tay-bac" title="Trà Xanh - Chocolate">Trà
+                                                    Xanh - Chocolate</a>
+                                                <ul class="menu_child_lv3">
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/tra-xanh-tay-bac"
+                                                            title="Trà Xanh Tây Bắc">
+                                                            Trà Xanh Tây Bắc
+                                                        </a>
+                                                    </li>
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/thuc-uong-khac" title="Chocolate">
+                                                            Chocolate
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </section>
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/collections/da-xay-frosty-1" title="Thức uống đá xay">Thức
+                                                    uống đá xay</a>
+                                                <ul class="menu_child_lv3">
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/da-xay-frosty-1" title="Đá xay Frosty">
+                                                            Đá xay Frosty
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </section>
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/collections/banh" title="Bánh & Snack">Bánh & Snack</a>
+                                                <ul class="menu_child_lv3">
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/banh-man" title="Bánh mặn">
+                                                            Bánh mặn
+                                                        </a>
+                                                    </li>
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/banh-ngot" title="Bánh ngọt">
+                                                            Bánh ngọt
+                                                        </a>
+                                                    </li>
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/banh-pastry" title="Bánh Pastry">
+                                                            Bánh Pastry
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </section>
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/collections/thuong-thuc-tai-nha"
+                                                    title="Thưởng Thức Tại Nhà">Thưởng Thức Tại Nhà</a>
+                                                <ul class="menu_child_lv3">
+                                                    <li class="lv3_title" main-menu-new-menu a_>
+                                                        <a href="/collections/ca-phe-tai-nha" title="Cà phê tại nhà">
+                                                            Cà phê tại nhà
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </section>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!--chuyen nha-->
+                        <li class="accordion">
+                            <div class="tab">
+                                <input type="checkbox" class="tab_input" name="" id="cb2">
+                                <label for="cb2" class="tab_label">
+                                    Chuyện Nhà
+                                    <svg width="6" height="4" viewBox="0 0 6 4" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2.99992 3.33332L0.333252 0.666656H5.66659L2.99992 3.33332Z"
+                                            fill="black" fill-opacity="0.6"></path>
+                                    </svg>
+                                </label>
+                                <div class="tab_content">
+                                    <ul class="menu_child" id="menu_child_4">
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/pages/chuyen-ca-phe-va-tra?b=1000676335"
+                                                    title="Coffeeholic">Coffeeholic</a>
+                                                <ul class="menu_child_lv3">
+                                                    <li class="lv3_title">
+                                                        <a href="/pages/chuyen-ca-phe-va-tra?b=1000676335&h=chuyencaphe"
+                                                            title="Chuyện Cà Phê">
+                                                            #chuyencaphe
+                                                        </a>
+                                                    </li>
+                                                    <li class="lv3_title">
+                                                        <a href="/pages/chuyen-ca-phe-va-tra?b=1000676335&h=phacaphe"
+                                                            title="Pha Cà Phê">
+                                                            #phacaphe
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </section>
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/pages/chuyen-ca-phe-va-tra?b=1000676336"
+                                                    title="Teaholic">Teaholic</a>
+                                                <ul class="menu_child_lv3">
+                                                    <li class="lv3_title">
+                                                        <a href="/pages/chuyen-ca-phe-va-tra?b=1000676336&h=phatra"
+                                                            title="Pha Trà">
+                                                            #phatra
+                                                        </a>
+                                                    </li>
+                                                    <li class="lv3_title">
+                                                        <a href="/pages/chuyen-ca-phe-va-tra?b=1000676336&h=cauchuyenvetra"
+                                                            title="Câu chuyện về trà">
+                                                            #cauchuyenvetra
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </section>
+                                        <section>
+                                            <li class="lv2_title">
+                                                <a href="/pages/chuyen-ca-phe-va-tra?b=1000676337" title="Blog">Blog</a>
+                                                <ul class="menu_child_lv3">
+                                                    <li class="lv3_title">
+                                                        <a href="/pages/chuyen-ca-phe-va-tra?b=1000676337&h=inthemood"
+                                                            title="In The Mood">
+                                                            #inthemood
+                                                        </a>
+                                                    </li>
+                                                    <li class="lv3_title">
+                                                        <a href="/pages/chuyen-ca-phe-va-tra?b=1000676337&h=Review"
+                                                            title="Review">
+                                                            #Review
+                                                        </a>
+                                                    </li>
+                                                    <li class="lv3_title">
+                                                        <a href="/pages/chuyen-ca-phe-va-tra?b=1000676337&h=HumanofTCH"
+                                                            title="Human of TCH">
+                                                            #HumanofTCH
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </section>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="/pages/cloudfee-the-he-ca-phe-moi" title="Cảm hứng CloudFee">Cảm hứng CloudFee</a>
+                        </li>
+
+                        <li>
+                            <a href="/pages/danh-sach-cua-hang" title="Cửa hàng">Cửa hàng</a>
+                        </li>
+
+                        <li>
+                            <a href="https://tuyendung.thecoffeehouse.com" title="Tuyển dụng" target="blank">Tuyển
+                                dụng</a>
+                        </li>
+                    </ul>
+                    <label for="nav_input" class="nav_mobile-btn">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
+                            class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 352 512">
+                            <path fill="currentColor"
+                                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+                            </path>
+                        </svg>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cloudfee">
+            <div class="banner-top">
+                <img src="https://hrv.hstatic.net/s_1000266602/_KV-marvel-2.jpg" alt="Cloudfee - Thế hệ cà phê mới" />
+            </div>
+            <div class="cloudfee-bg">
+                <div class="top-desc">
+                    <br>
+                    Được kết hợp từ <b>Cloud</b>
+                    (đám mây) và cof<b>Fee</b>
+                    (cà phê), <b>CloudFee</b>
+                    gợi mở<br>về một thế hệ cà phê mới, êm mượt như mây.
+                </div>
+            </div>
+            <div class="cloudfee-block">
+                <div class="info-block">
+                    <span class="subtitle">CLOuDFEE</span>
+                    <div class="main-title">Creme Brulee</div>
+                    <div class="cloud-desc">
+                        <b>Thức uống "chiều chuộng bản thân" bậc nhất</b>
+                        cho những ai thích vị ngọt ngào hay muốn thưởng thức sự kết hợp độc đáo giữa món tráng miệng và
+                        thức uống.
+                    </div>
+                    <a class="flex-box align-c cloud-btn" href="https://order.thecoffeehouse.com/cloud-fee"
+                        target="_blank" title="Êm mượt như mây, Chill là ghiền ngay!">
+                        <span>Êm mượt như mây, Chill là ghiền ngay!</span>
+                    </a>
+                </div>
+                <div class="img-block">
+                    <img src="https://hrv.hstatic.net/s_1000266602/_creme-brulee.png" alt="Creme Brulee" />
+                </div>
+            </div>
+            <div class="cloudfee-block right">
+                <div class="img-block">
+                    <img src="https://hrv.hstatic.net/s_1000266602/_creamy.png" alt="Creamy" />
+                </div>
+                <div class="info-block">
+                    <span class="subtitle">CLOuDFEE</span>
+                    <div class="main-title2">Creamy</div>
+                    <div class="cloud-desc">
+                        <b>Thức uống "đánh thức" năng lượng ngày mới </b>
+                        hợp cho những ai mới bước vào thế giới cà phê hoặc ghiền cà phê nhưng muốn khám phá thêm nhiều
+                        hương vị mới.
+                    </div>
+                    <a class="flex-box align-c cloud-btn" href="https://order.thecoffeehouse.com/cloud-fee"
+                        target="_blank" title="Êm mượt như mây, Tươi ngày mới ngay!">
+                        <span>Êm mượt như mây, Tươi ngày mới ngay!</span>
+                    </a>
+                </div>
+            </div>
+            <div class="video">
+                <div class="video-title">CÀ PHÊ CÓ DÀNH CHO TẤT CẢ MỌI NGƯỜI?</div>
+                <div class="box-frame">
+                    <iframe src="https://www.youtube.com/embed/t5I96ycncPA" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="cloud-desc">Bạn có biết, mỗi ngày có hơn 2 tỷ cốc cà phê được uống trên toàn thế giới?
+
+                    Có người pha cùng sữa, có người rót thêm kem béo, hay kết hợp cùng… rượu whiskey, nhưng không phải
+                    ai cũng có thể thưởng thức cà phê một cách ngon lành. Bằng niềm khao khát mang ẩm thực thế giới vào
+                    từng ly cà phê bản địa, Edward Teonadi - Giám đốc phát triển sản phẩm tại The Coffee House đã tạo
+                    nên thế hệ cà phê mới mang tên CloudFee. Và giờ đây, bất kỳ ai ghé Nhà cũng có thể tìm thấy hương vị
+                    cà phê cho riêng mình.</div>
+            </div>
+            <div class="story">
+                <div class="story-container">
+                    <div class="story-item">
+                        <div class="story-img">
+                            <img src="https://file.hstatic.net/1000075078/file/thinh_93cf92a5395043a2b634af4de08c0163.png"
+                                alt="CÀ PHÊ NGON CHỈ CÓ VỊ ĐẮNG?" />
+                        </div>
+                        <div class="story-info">
+                            <div class="story-title">CÀ PHÊ NGON CHỈ CÓ VỊ ĐẮNG?</div>
+                            <div class="cloud-desc">Từ ý tưởng về CloudFee của Edward, anh Phạm Phúc Thịnh - barista của
+                                The Coffee House nhận ra: Cà phê không nhất thiết phải đắng, phải chua thì mới ngon. Đôi
+                                khi một chút biến tấu, một chút ngọt ngào để yêu chiều bản thân mới thật sự quan trọng.
+                                Và đó là cách CloudFee Creme Brulee ra đời.</div>
+                            <a class="cloud-btn2" href="https://www.youtube.com/watch?v=o9G8v4j-P3w" target="_blank"
+                                title="Xem video nghe Thịnh kể chuyện">Xem video nghe Thịnh kể chuyện</a>
+                        </div>
+                    </div>
+                    <div class="story-item-right">
+                        <div class="story-info">
+                            <div class="story-title">CÀ PHÊ ĐÂU CHỈ LÀ THỨC UỐNG</div>
+                            <div class="cloud-desc">Trong ly cà phê dành cho người mình thương có gì?
+                                Khi nghe Edward chia sẻ về thế hệ cà phê mới CloudFee, anh Nguyễn Hoàng Hiếu -
+                                barista của The Coffee House chợt nhớ tới vợ mình. Cô ngại vị đắng của cà phê,
+                                nhưng cần một thức uống tỉnh táo mỗi sáng.
+                                Và CloudFee Creamy là món quà anh tặng cho người phụ nữ anh yêu. </div>
+                            <a class="cloud-btn2" href="https://www.youtube.com/watch?v=LdmG0hSq_Ig" target="_blank"
+                                title="Hiếu bật mí trong video này">Hiếu bật mí trong video này</a>
+                        </div>
+                        <div class="story-img">
+                            <img src="https://file.hstatic.net/1000075078/file/hieu_ed120096122f4c279ff41696f8b97eb3.png"
+                                alt="CÀ PHÊ ĐÂU CHỈ LÀ THỨC UỐNG" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-cta">
+                <a href="https://order.thecoffeehouse.com/cloud-fee" title="Banner dùng thử ngay" target="_blank">
+                    <img src="https://file.hstatic.net/1000075078/file/banner-1200x144_082e045e53bc4c0eaa68c78cd418dc42.jpg"
+                        alt="Banner dùng thử ngay" />
+                </a>
+            </div>
+    </main>
+</body>
+
+</html>
